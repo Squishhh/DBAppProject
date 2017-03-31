@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" android:title="Queries">
+        <item
+            android:title="Selection/Projection"
+            android:id="@+id/nav_selection"/>
+        <item
+            android:title="Join"
+            android:id="@+id/nav_join"/>
+        <item
+            android:title="Division"
+            android:id="@+id/nav_division"/>
+        <item
+            android:title="Aggregation"
+            android:id="@+id/nav_aggregation"/>
+        <item
+            android:title="Nested Agg"
+            android:id="@+id/nav_nestedAgg"/>
+        <item
+            android:title="Delete op"
+            android:id="@+id/nav_delete"/>
+        <item
+            android:title="Update op"
+            android:id="@+id/nav_update"/>
+    </group>
+</menu>
